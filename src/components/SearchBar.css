@@ -1,0 +1,26 @@
+.SearchBar input{
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: .5rem .6rem;
+    width: calc(100vw - 20px);
+
+    box-sizing: border-box; 
+}
+
+.buttonSearch{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    height:36px;
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #1a62d6;
+}
+
+.buttonSearch:hover{
+    background-color: #1756bb;
+}

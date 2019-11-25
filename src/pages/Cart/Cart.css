@@ -1,0 +1,11 @@
+.Cart{
+  width: calc(100vw - 20px);
+  margin: 20px 10px;
+  display: grid;
+  grid-auto-rows: 200px;
+  row-gap: 10px;
+}
+
+.cartItem{
+  background-color: #aaa;
+}
