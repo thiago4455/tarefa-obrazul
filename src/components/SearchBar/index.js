@@ -6,7 +6,7 @@ class SearchBar extends Component{
     value:''
   }
 
-  //Esperar por intervalo de 1 segundo entre teclas, para evitar sobrecarga da API
+  //Esperar por intervalo de 0.5 segundos entre teclas, para evitar sobrecarga da API
   onChange = (e) => {
     this.props.onChange();
     let val = e.target.value;

@@ -1,5 +1,5 @@
 .products{
-  height: calc(100vh - 80px);
+  height: 100vh;
   width: calc(100vw - 20px);
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px,1fr));

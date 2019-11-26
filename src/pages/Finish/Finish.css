@@ -1,0 +1,56 @@
+.paymentForm{
+    display: flex;
+    font-size: 14px;
+    color: #626262;
+    min-height: 85vh;
+    width: 80vw;
+    background-color: #fff;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    margin-top: 25px;
+}
+
+.paymentForm h2{
+    align-self: flex-start;
+    margin: 20px 0px 0px 25px;
+}
+
+.paymentForm div div input{
+    display: flex;
+    width: 90%;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    margin-top: .5rem;
+}
+
+.accessData, .paymentData{
+    width: calc(100% - 50px);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin: 10px;
+    column-gap: 40px;
+    row-gap: 15px
+} 
+
+.finishFooter{
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 25px;
+}
+
+.paymentForm .total{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0px auto 0px 25px
+}
+.paymentForm .total h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}

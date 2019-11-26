@@ -1,11 +1,59 @@
 .Cart{
   width: calc(100vw - 20px);
   margin: 20px 10px;
+}
+
+.cartGrid{
   display: grid;
   grid-auto-rows: 200px;
   row-gap: 10px;
 }
 
-.cartItem{
-  background-color: #aaa;
+.cartFooter{
+  display: flex;
+  height: 80px;
+  width: calc(100vw - 20px);
+  background-color: #fff;
+  box-shadow: 2px 2px 3px #aaa;
+}
+
+.total{
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+.total h5{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.total h2{
+  margin: 0px;
+}
+
+.back, .finish{
+  height: 35px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 3px #aaa;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  align-self: center
+}
+.back{
+  background-color: #6c757d;
+  margin-right: auto;
+  margin-left: 15px;
+}
+.back:hover{
+  background-color: #5a6268;
+}
+.finish{
+  background-color: #2ba745;
+  margin-right: 15px;
+}
+.finish:hover{
+  background-color: #218838;
 }

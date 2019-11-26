@@ -1,0 +1,67 @@
+.CartItem{
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #aaa;
+}
+  
+.itemImage{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.itemDetails{
+  margin-left: 20px;
+}
+
+.itemName{
+  color: #222
+}
+
+.storeName{
+  margin-bottom: 10px;
+}
+
+.storeLocation, .storePhone{
+  margin: 6px 0px;
+  display: flex;
+  align-items: center
+}
+
+.cartIcons{
+  height: 15px;
+  width: 15px;
+  fill: #555;
+  margin-right: 5px;
+}
+
+.cartAmount{
+    font-size: 18px;
+    height: 30px;
+    align-self: center;
+    margin: auto 0px 15px auto;
+}
+
+.itemPrice{
+  margin: auto 25px 15px 20px;
+}
+
+.ie{
+  display: flex;
+  flex-direction: column
+}
+
+.removeItem{
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin: 10px 15px auto auto;
+  cursor: pointer;
+}
+.removeItem:hover{
+  color: red
+}
+.removeItem:focus{
+  outline: none
+}
